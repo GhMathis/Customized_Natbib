@@ -1,4 +1,4 @@
-![LaTeX](https://img.shields.io/badge/latex-%23008080.svg?style=for-the-badge&logo=latex&logoColor=white)
+![LaTeX](https://img.shields.io/badge/latex-%23008080.svg?style=plain&logo=latex&logoColor=white)
 
 # Customized_Natbib
 
