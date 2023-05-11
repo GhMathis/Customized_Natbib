@@ -1,0 +1,30 @@
+\documentclass{article}
+\usepackage[english]{babel}
+
+%Includes "References" in the table of contents
+\usepackage[nottoc]{tocbibind}
+
+%Import the natbib package and sets a bibliography style
+\usepackage[square,numbers]{natbib}
+\bibliographystyle{abbrvnat_modified}
+
+%Title and author
+\title{Bibliography management: \texttt{natbib} package}
+\author{Maciej Skórski}
+\date {May 2023}
+
+\begin{document}
+
+\maketitle
+
+\tableofcontents
+
+\section{First Section}
+This document is an example of using a \texttt{natbib} package in bibliography management. Three items are cited: \textit{The \LaTeX\ Companion} book \citet{latexcompanion}, the Einstein journal paper \citet{einstein}, and the Donald Knuth's website \cite{knuthwebsite}. The \LaTeX\ related items are \cite{latexcompanion,knuthwebsite}. Note that the bibliography style is modified to emphasize "et al.".
+
+\medskip
+
+%Imports the bibliography file "sample.bib"
+\bibliography{sample}
+
+\end{document}
